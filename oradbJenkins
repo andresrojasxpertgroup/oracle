@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'ora-x1' }
+    agent {  }
     stages {
             stage ('Download Required RPM') {
             steps { 
