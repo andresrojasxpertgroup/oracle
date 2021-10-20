@@ -1,6 +1,14 @@
 pipeline {
     agent  any 
     stages {
+
+stage ('dhclient') {
+            steps { 
+                echo 'Install dhclient'
+                sh script: "dhclient"
+            }
+        }
+
             stage ('Download Required RPM') {
             steps { 
                 echo 'Download Oracle Preinstallation RPM and the Oracle Database RPM packages'
