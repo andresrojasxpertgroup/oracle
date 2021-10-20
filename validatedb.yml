@@ -17,10 +17,12 @@
         with_items: "{{ sqlplus_cdbvalidate.results|map(attribute='stdout')|list }}"
 
   vars:
-    cdb_name: "ORCLCDB"
-    pdb_name: ORCLPDB1
-    syspass: "Bangla123"
+    cdb_name: "ORCL"
+    pdb_name: ORCL
+    #cdb_name: "ORCLCDB"
+    #pdb_name: ORCLPDB1*/
+    syspass: "]tk*yDHACJmCZTM"
     oracle_home: "/opt/oracle/product/19c/dbhome_1"
-    root_user: root
+    root_user: admin
     oracle_user: oracle
 

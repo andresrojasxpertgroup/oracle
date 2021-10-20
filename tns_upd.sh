@@ -1,10 +1,10 @@
 #!/bin/bash
 export ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
 export TNSNAMES_FILE=tnsnames.ora
-export ENTRY_NAME=ORCLPDB1
-export HOST_ADDR=192.168.56.101
+export ENTRY_NAME=ORCL
+export HOST_ADDR=database-1.cqoceketczsp.us-east-1.rds.amazonaws.com
 export PORT_NUM=1521
-export SRV_NAME=ORCLPDB1
+export SRV_NAME=ORCL
 export TNS_ADMIN_DIR=/opt/oracle/product/19c/dbhome_1/network/admin
 
 #if [ -z $1 ] || [ -z $2 ] || [ -z $3 ] || [ -z $4 ] || [ -z $5 ]; then
